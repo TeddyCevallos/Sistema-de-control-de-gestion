@@ -1,0 +1,33 @@
+.portada{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    display: flex;
+}
+
+.portada img{
+    width: 100%;
+    height: 640px;
+    margin: auto;
+    display: block;
+}
+
+.portada h2{
+    display: block;
+    text-align: center;
+    text-shadow: 1px 1px 5px 1px rgb(144,134,142);
+    font-size: 30px;
+    margin: auto;
+}
+.info{
+    width: 45%;
+    height: ;
+    margin: auto;
+    border: 1px solid rgb(207, 227, 208);
+}
+.estadistica{
+    width: 45%;
+    height: auto;
+    margin: auto;
+
+}
