@@ -1,0 +1,3 @@
+Aqui se editaran los estilos de la barra de navegacion, el pie de pagina
+y entre otros conenedores que esten similares en las paginas html.
+asi no nos vamos a llenar de tantas lineas de codigo en un solo archivo.

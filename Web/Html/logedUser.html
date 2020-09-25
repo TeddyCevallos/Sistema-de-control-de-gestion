@@ -4,12 +4,17 @@
 <head>
     <meta charset="utf-8">
     <title></title>
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/all.css">
+    <link rel="stylesheet" href="../css/fontawesome.css">
+    <link rel="stylesheet" href="../css/solid.css">
 </head>
 
 <body>
     <header class="cabecera" id="cabecera">
         <nav>
             <img src="" alt="">
+            <a href="#" id="icono" onclick="document.getElementById('submenu').style.display='block'"><i class="fas fa-angle-up"></i></a>
             <ul class="menu">
                 <li>
                     <input type="text" name="Busqueda" value="" placeholder="Ingresa Tu Busqueda">
@@ -25,27 +30,26 @@
                     <a href="#">Opcion3</a>
                 </li>
             </ul>
-            <a href="#" id="icono"><i class="icono"></i></a>
-            <ul class="submenu" id="submenu">
-                <button type="button" id="cerrar" name="button"onclick="document.getElementById('submenu').style.display='none'"><i></i> </button>
-                <li>
-                    <a href="#">Cerrar Sesion</a>
-                </li>
-                <li>
-                    <i> </i>
-                    <a href="#">Consultar</a>
-                </li>
-                <li>
-                    <i> </i>
-                    <a href="#">Editar</a>
-                </li>
-                <li>
-                    <i> </i>
-                    <a href="#">Agregar</a>
-                </li>
-            </ul>
         </nav>
     </header>
+    <ul class="submenu" id="submenu">
+        <button type="button" id="cerrar" name="button"onclick="document.getElementById('submenu').style.display='none'"><i></i> </button>
+        <li>
+            <a href="#">Cerrar Sesion</a>
+        </li>
+        <li>
+            <i> </i>
+            <a href="#">Consultar</a>
+        </li>
+        <li>
+            <i> </i>
+            <a href="#">Editar</a>
+        </li>
+        <li>
+            <i> </i>
+            <a href="#">Agregar</a>
+        </li>
+    </ul>
     <main class="contenido" id="contenido">
         <section class="publicidad_i">
             <img src="" alt="">
@@ -71,23 +75,28 @@
         </section>
     </main>
     <footer class="pie_pagina" id="pie_pagina">
-        <div class="footer">
-            <h4>Contactos</h4>
-            <ul class="contactos">
-                <li>
-                    <a href="#">facebook</a>
-                </li>
-                <li>
-                    <a href="#">fci</a>
-                </li>
-                <li>
-                    <a href="#">github</a>
-                </li>
-            </ul>
-            <h4>Codigo Fuente</h4>
-            <li>
-                <a href="https://github.com/TeddyCevallos/Sistema-de-control-de-gestion">Codigo Fuente</a>
-            </li>
+            <div class="footer">
+                <h4>Contactos</h4>
+                <ul class="contactos">
+                    <li>
+                        <a href="#"><i class="fa fa-facebook"></i> </a>
+                    </li>
+                    <li>
+                        <a href="#"><i></i> fci</a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fas fa-github"></i> </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer">
+                <h4>Codigo Fuente</h4>
+                <ul>
+                    <li>
+                        <a href="https://github.com/TeddyCevallos/Sistema-de-control-de-gestion">Github</a>
+                    </li>
+                </ul>
+            </div>
             <p>
                 Todos los derechos reservados &copy; <a href="http://www.google.com"> TusTapas.com</a>
             </p>

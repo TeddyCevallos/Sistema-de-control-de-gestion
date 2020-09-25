@@ -4,6 +4,10 @@
 <head>
     <meta charset="utf-8">
     <title></title>
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/all.css">
+    <link rel="stylesheet" href="../css/fontawesome.css">
+    <link rel="stylesheet" href="../css/solid.css">
 </head>
 
 <body>
@@ -22,54 +26,54 @@
                     <a href="#">Opcion2</a>
                 </li>
                 <li>
-                    <a href="#" id="solicitud">Solicitudes</a>
+                    <a href="#" id="solicitud" onclick="document.getElementById('noticia').style.display='block'">Solicitudes</a>
                 </li>
             </ul>
             <a href="#" id="icono"><i class="icono"></i></a>
-            <ul class="submenu" id="submenu">
-                <button type="button" id="cerrar" name="button"onclick="document.getElementById('submenu').style.display='none'"></button>
-                <li><a href="#">Cerrar Sesion</a> </li>
-                <li>
-                    <i> </i>
-                    <a href="#">Consultar</a>
-                </li>
-                <li>
-                    <i> </i>
-                    <a href="#">Editar</a>
-                </li>
-                <li>
-                    <i> </i>
-                    <a href="#">Agregar</a>
-                </li>
-                <li>
-                    <i> </i>
-                    <a href="#">Gestion de Acceso</a>
-                </li>
-            </ul>
         </nav>
-        <section class="noticia" id="noticia">
-            <h2>Solicitudes de Acceso</h2>
-            <button type="button" id="cerrar" name="button" onclick="document.getElementById('noticia').style.display='none'"><i></i> </button>
-            <div class="">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <button type="button" id="rechazar" name="button">Rechazar</button>
-                <button type="button" id="aceptar" name="button">Aceptar</button>
-            </div>
-            <div class="">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <button type="button" id="rechazar" name="button">Rechazar</button>
-                <button type="button" id="aceptar" name="button">Aceptar</button>
-            </div>
-            <div class="">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <button type="button" id="rechazar" name="button">Rechazar</button>
-                <button type="button" id="aceptar" name="button">Aceptar</button>
-            </div>
-        </section>
     </header>
+    <section class="noticia" id="noticia">
+        <h2>Solicitudes de Acceso</h2>
+        <button type="button" id="cerrar" name="button" onclick="document.getElementById('noticia').style.display='none'"><i></i> </button>
+        <div class="">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <button type="button" id="rechazar" name="button">Rechazar</button>
+            <button type="button" id="aceptar" name="button">Aceptar</button>
+        </div>
+        <div class="">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <button type="button" id="rechazar" name="button">Rechazar</button>
+            <button type="button" id="aceptar" name="button">Aceptar</button>
+        </div>
+        <div class="">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <button type="button" id="rechazar" name="button">Rechazar</button>
+            <button type="button" id="aceptar" name="button">Aceptar</button>
+        </div>
+    </section>
+    <ul class="submenu" id="submenu">
+        <button type="button" id="cerrar" name="button" onclick="document.getElementById('submenu').style.display='none'"></button>
+        <li><a href="#">Cerrar Sesion</a> </li>
+        <li>
+            <i> </i>
+            <a href="#">Consultar</a>
+        </li>
+        <li>
+            <i> </i>
+            <a href="#">Editar</a>
+        </li>
+        <li>
+            <i> </i>
+            <a href="#">Agregar</a>
+        </li>
+        <li>
+            <i> </i>
+            <a href="#">Gestion de Acceso</a>
+        </li>
+    </ul>
     <main class="contenido" id="contenido">
 
     </main>
@@ -78,22 +82,27 @@
             <h4>Contactos</h4>
             <ul class="contactos">
                 <li>
-                    <a href="#">facebook</a>
+                    <a href="#"><i class="fa fa-facebook"></i> </a>
                 </li>
                 <li>
-                    <a href="#">fci</a>
+                    <a href="#"><i></i> fci</a>
                 </li>
                 <li>
-                    <a href="#">github</a>
+                    <a href="#"><i class="fas fa-github"></i> </a>
                 </li>
             </ul>
+        </div>
+        <div class="footer">
             <h4>Codigo Fuente</h4>
-            <li>
-                <a href="https://github.com/TeddyCevallos/Sistema-de-control-de-gestion">Codigo Fuente</a>
-            </li>
-            <p>
-                Todos los derechos reservados &copy; <a href="http://www.google.com"> TusTapas.com</a>
-            </p>
+            <ul>
+                <li>
+                    <a href="https://github.com/TeddyCevallos/Sistema-de-control-de-gestion">Github</a>
+                </li>
+            </ul>
+        </div>
+        <p>
+            Todos los derechos reservados &copy; <a href="http://www.google.com"> TusTapas.com</a>
+        </p>
         </div>
     </footer>
 </body>

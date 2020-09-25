@@ -4,14 +4,19 @@
 <head>
     <meta charset="utf-8">
     <title></title>
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/all.css">
+    <link rel="stylesheet" href="../css/fontawesome.css">
+    <link rel="stylesheet" href="../css/solid.css">
 </head>
 
 <body>
     <header class="cabecera" id="cabecera">
         <nav>
             <img src="" alt="">
+            <a href="#" id="icono" onclick="document.getElementById('submenu').style.display='block';"><i class="fas fa-bars"></i></a>
             <ul class="menu" id="menu">
-                <li>
+                <li class="barra">
                     <input type="text" name="Busqueda" value="" placeholder="Ingresa Tu Busqueda">
                     <input type="submit" name="Buscar" value="Buscar"></input>
                 </li>
@@ -25,29 +30,30 @@
                     <a href="#">Opcion3</a>
                 </li>
             </ul>
-            <a href="#" id="icono"><i class="icono"></i></a>
-            <ul class="submenu" id="submenu">
-                <button type="button" id="cerrar" name="button" onclick="document.getElementById('submenu').style.display='none';"><i></i> </button>
-                <li>
-                    <h3>Iniciar Sesion</h3>
-                </li>
-                <li>
-                    <label for="">Nombre de Usuario </label><br>
-                    <input type="text" name="" value="" placeholder="Direccion de Correo" id="username" required><br>
-                </li>
-                <li>
-                    <label for="">Contraseña</label><br>
-                    <input type="password" name="" value="" placeholder="Digite la Contraseña" id="password" required> <br>
-                </li>
-                <li>
-                    <button type="button" name="button"id="acceso">Acceder</button>
-                </li>
-                <li>
-                    <a href="#"><p>¿Olvido su contraseña?</p> </a>
-                </li>
-            </ul>
         </nav>
     </header>
+    <ul class="submenu" id="submenu">
+        <button type="button" id="cerrar" name="button" onclick="document.getElementById('submenu').style.display='none';"><i class="fas fa-angle-up"></i> </button>
+        <li>
+            <h3>Iniciar Sesion</h3>
+        </li>
+        <li>
+            <label for=""> <i class="fas fa-user"></i>Nombre de Usuario </label><br>
+            <input type="text" name="" value="" placeholder="Direccion de Correo" id="username" required><br>
+        </li>
+        <li>
+            <label for=""><i class="fas fa-key"></i>Contraseña </label><br>
+            <input type="password" name="" value="" placeholder="Digite la Contraseña" id="password" required> <br>
+        </li>
+        <li>
+            <button type="button" name="button" id="acceso">Acceder</button>
+        </li>
+        <li>
+            <a href="#">
+                <p>¿Olvido su contraseña?</p>
+            </a>
+        </li>
+    </ul>
     <main class="contenido" id="contenido">
         <section class="portada">
             <img src="" alt="">
@@ -82,23 +88,27 @@
             <h4>Contactos</h4>
             <ul class="contactos">
                 <li>
-                    <a href="#">facebook</a>
+                    <a href="#"><i class="fa fa-facebook"></i> </a>
                 </li>
                 <li>
-                    <a href="#">fci</a>
+                    <a href="#"><i></i> fci</a>
                 </li>
                 <li>
-                    <a href="#">github</a>
+                    <a href="#"><i class="fas fa-github"></i> </a>
                 </li>
             </ul>
-            <h4>Codigo Fuente</h4>
-            <li>
-                <a href="https://github.com/TeddyCevallos/Sistema-de-control-de-gestion">Codigo Fuente</a>
-            </li>
-            <p>
-                Todos los derechos reservados &copy; <a href="http://www.google.com"> TusTapas.com</a>
-            </p>
         </div>
+        <div class="footer">
+            <h4>Codigo Fuente</h4>
+            <ul>
+                <li>
+                    <a href="https://github.com/TeddyCevallos/Sistema-de-control-de-gestion">Github</a>
+                </li>
+            </ul>
+        </div>
+        <p>
+            Todos los derechos reservados &copy; <a href="http://www.google.com"> TusTapas.com</a>
+        </p>
     </footer>
 </body>
 
