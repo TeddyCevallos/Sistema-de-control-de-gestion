@@ -7,12 +7,31 @@
 </head>
 
 <body>
-    <header class="cabecera">
-
+    <header class="cabecera" id="cabecera">
+        <nav>
+            <img src="" alt="">
+            <ul class="menu">
+                <li>
+                    <input type="text" name="Busqueda" value="" placeholder="Ingresa Tu Busqueda">
+                    <input type="submit" name="Buscar" value="Buscar"></input>
+                </li>
+                <li>
+                    <a href="#">Opcion1</a>
+                </li>
+                <li>
+                    <a href="#">Opcion2</a>
+                </li>
+                <li>
+                    <a href="#">Opcion3</a>
+                </li>
+            </ul>
+            <a href="#" id="icono"><i class="icono"></i></a>
+        </nav>
     </header>
 
-    <main class="contenido">
-        <section class="añadir">
+    <main class="contenido" id="contenido">
+        <section class="añadir" id="añadir">
+            <button type="button" id="cerrar" name="button"onclick="document.getElementById('añadir').style.display='none'"><i></i> </button>
             <div class="">
                 <a href="#"><i></i> </a>
                 <a href="#">
@@ -51,7 +70,43 @@
                 </a>
             </div>
         </section>
-        <section class="consulta">
+        <section class="consulta" id="consulta">
+            <button type="button" id="cerrar" name="button"onclick="document.getElementById('consulta').style.display='none'"><i></i> </button>
+            <div class="">
+                <a href="#"><img src="" alt=""></a><a href="#">
+                    <h4>titulo</h4>
+                </a>
+            </div>
+            <div class="">
+                <a href="#"><img src="" alt=""></a><a href="#">
+                    <h4>titulo</h4>
+                </a>
+            </div>
+            <div class="">
+                <a href="#"><img src="" alt=""></a><a href="#">
+                    <h4>titulo</h4>
+                </a>
+            </div>
+            <div class="">
+                <a href="#"><img src="" alt=""></a><a href="#">
+                    <h4>titulo</h4>
+                </a>
+            </div>
+            <div class="">
+                <a href="#"><img src="" alt=""></a><a href="#">
+                    <h4>titulo</h4>
+                </a>
+            </div>
+            <div class="">
+                <a href="#"><img src="" alt=""></a><a href="#">
+                    <h4>titulo</h4>
+                </a>
+            </div>
+
+        </section>
+
+        <section class="editar" id="editar">
+            <button type="button" id="cerrar" name="button"onclick="document.getElementById('editar').style.display='none'"><i></i> </button>
             <div class="">
                 <a href="#"><img src="" alt=""></a><a href="#">
                     <h4>titulo</h4>
@@ -83,9 +138,45 @@
                 </a>
             </div>
         </section>
-
+        <section class="ver-editar" id="ver-editar">
+            <button type="button" id="cerrar" name="button"onclick="document.getElementById('ver-editar').style.display='none'"><i></i> </button>
+            <div class="">
+                <img src="" alt="">
+                <img src="" alt="">
+            </div>
+            <div class="">
+                <label for=""></label>
+                <input type="text" name="" value="" id=""><br>
+                <label for=""></label>
+                <input type="text" name="" value="" id=""><br>
+                <label for=""></label>
+                <input type="text" name="" value="" id=""><br>
+                <button type="button" id="save" name="button">Save!</button>
+            </div>
+        </section>
     </main>
-    <footer class="pie_pagina">
+    <footer class="pie_pagina" id="pie_pagina">
+        <div class="footer">
+            <h4>Contactos</h4>
+            <ul class="contactos">
+                <li>
+                    <a href="#">facebook</a>
+                </li>
+                <li>
+                    <a href="#">fci</a>
+                </li>
+                <li>
+                    <a href="#">github</a>
+                </li>
+            </ul>
+            <h4>Codigo Fuente</h4>
+            <li>
+                <a href="https://github.com/TeddyCevallos/Sistema-de-control-de-gestion">Codigo Fuente</a>
+            </li>
+            <p>
+                Todos los derechos reservados &copy; <a href="http://www.google.com"> TusTapas.com</a>
+            </p>
+        </div>
     </footer>
 </body>
 
