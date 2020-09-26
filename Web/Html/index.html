@@ -9,13 +9,16 @@
     <link rel="stylesheet" href="../css/all.css">
     <link rel="stylesheet" href="../css/fontawesome.css">
     <link rel="stylesheet" href="../css/solid.css">
+    <script type="text/javascript" src="../Js/onclick.js">
+
+    </script>
 </head>
 
 <body>
     <header class="cabecera" id="cabecera">
         <nav>
             <img src="" alt="">
-            <a href="#" id="icono" onclick="document.getElementById('submenu').style.display='block';"><i class="fas fa-bars"></i></a>
+            <a href="#" id="icono" onclick="document.getElementById('back').style.display='block'"><i class="fas fa-bars"></i></a>
             <ul class="menu" id="menu">
                 <li class="barra">
                     <input type="text" name="Busqueda" value="" placeholder="Ingresa Tu Busqueda">
@@ -33,28 +36,30 @@
             </ul>
         </nav>
     </header>
-    <ul class="submenu" id="submenu">
-        <button type="button" id="cerrar" name="button" onclick="document.getElementById('submenu').style.display='none';"><i class="fas fa-angle-up"></i> </button>
-        <li>
-            <h3>Iniciar Sesion</h3>
-        </li>
-        <li>
-            <label for=""> <i class="fas fa-user"></i>Nombre de Usuario </label><br>
-            <input type="text" name="" value="" placeholder="Direccion de Correo" id="username" required><br>
-        </li>
-        <li>
-            <label for=""><i class="fas fa-key"></i>Contraseña </label><br>
-            <input type="password" name="" value="" placeholder="Digite la Contraseña" id="password" required> <br>
-        </li>
-        <li>
-            <button type="button" name="button" id="acceso">Acceder</button>
-        </li>
-        <li>
-            <a href="#">
-                <p>¿Olvido su contraseña?</p>
-            </a>
-        </li>
-    </ul>
+    <section class="back" id="back">
+        <ul class="submenu" id="submenu">
+            <button type="button" id="cerrar" name="button" onclick="document.getElementById('back').style.display='none';"><i class="fas fa-angle-up"></i> </button>
+            <li>
+                <h3>Iniciar Sesion</h3>
+            </li>
+            <li>
+                <label for=""> <i class="fas fa-user"></i>Nombre de Usuario </label><br>
+                <input type="text" name="" value="" placeholder="Direccion de Correo" id="username" required><br>
+            </li>
+            <li>
+                <label for=""><i class="fas fa-key"></i>Contraseña </label><br>
+                <input type="password" name="" value="" placeholder="Digite la Contraseña" id="password" required> <br>
+            </li>
+            <li>
+                <button type="button" name="button" id="acceso">Acceder</button>
+            </li>
+            <li>
+                <a href="#">
+                    <p>¿Olvido su contraseña?</p>
+                </a>
+            </li>
+        </ul>
+    </section>
     <main class="contenido" id="contenido">
         <section class="portada">
             <img src="../back.png" alt="">
@@ -72,15 +77,18 @@
         <section class="estadistica" id="estadistica">
             <div class="izquierda">
                 <img src="" alt="">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             </div>
             <div class="derecha">
                 <img src="" alt="">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             </div>
             <div class="izquierda">
                 <img src="" alt="">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             </div>
         </section>
     </main>

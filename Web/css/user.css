@@ -1,0 +1,63 @@
+.submenu li {
+    width: 200px;
+    border: 1px solid rgb(207, 227, 208);
+    padding: 0;
+}
+
+.submenu li a {
+    font-size: 18px;
+    text-shadow: 1px 3px 3px rgb(189, 42, 91);
+    color: rgb(0, 0, 0);
+}
+
+.submenu li i {
+    font-size: 25px;
+    margin: 10px 5px;
+}
+
+
+.contenido{
+    display: flex;
+}
+
+.publicidad_i, .publicidad_d{
+    width: 20%;
+    height: auto;
+    margin: auto;
+}
+.publicidad_d img, .publicidad_i img{
+    width: 100%;
+    height: 10%;
+    margin: 5px auto;
+}
+.publicacion{
+    border: 1px solid rgb(133,106,184);
+    width: 45%;
+    height: auto;
+    margin: auto;
+}
+
+.publicacion .publicado{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+.publicado img{
+    width: 250px;
+    height: 350px;
+    margin: auto;
+}
+
+.welcome{
+    align-items: center;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    text-align: center;
+}
+.agregar{
+    width: 150px;
+    height: auto;
+    margin: auto 35%;
+    border-radius: 15px;
+}
