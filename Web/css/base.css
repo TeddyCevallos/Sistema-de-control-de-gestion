@@ -155,8 +155,9 @@ nav i:hover {}
     margin: 0 10px;
 }
 
-.submenu li i {
+.submenu li label i {
     font-size: 20px;
+    color: rgb(35,116,18);
 }
 
 #acceso {
@@ -183,42 +184,42 @@ nav i:hover {}
 .pie_pagina {
     clear: both;
     width: 99%;
-    height: 250px;
+    height: 200px;
     margin: 50px auto 5px;
     background: rgb(78,100,214);
 }
 
 .pie_pagina p {
-    clear: both;
-    margin: auto;
-    margin-bottom: 10px;
+    margin: 0 10px 10px;
+    margin-top: 175px;
+    position: absolute;
 }
 
 .footer {
     width: 400px;
     height: auto;
-    display: block;
-    margin: 50px auto;
-    border: 1px solid rgb(207,168,181);
+    display: flex;
+    margin: 50px 10px;
     float: right;
 }
 
 .footer h4 {
     text-align: justify;
     font-size: 25px;
-    margin: auto 15px;
+    margin:10px auto ;
     padding: 10px;
 }
 
 .footer ul li {
     width: auto;
-    margin: auto 10px;
-    padding: 10px;
+    margin: 27px 15px;
     float: right;
-    display: flex;
 }
 
+.contactos{
+    display: flex;
+}
 .contactos li a i {
     font-size: 35px;
-    margin: auto;
+    margin: 0;
 }
