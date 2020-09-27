@@ -197,14 +197,27 @@ nav i:hover {}
 
 .footer {
     width: 400px;
+<<<<<<< HEAD
+<<<<<<< HEAD
+    height: right;
+    display: block;
+    margin: 50px auto;
+    border: 1px solid rgb(207,168,181);
+=======
     height: auto;
     display: flex;
     margin: 50px 10px;
+>>>>>>> 59a70062dd2d89dbc7808ca56e9e4b037ef136e9
+=======
+    height: auto;
+    display: flex;
+    margin: 50px 10px;
+>>>>>>> 59a70062dd2d89dbc7808ca56e9e4b037ef136e9
     float: right;
 }
 
 .footer h4 {
-    text-align: justify;
+    text-align:right;
     font-size: 25px;
     margin:10px auto ;
     padding: 10px;
