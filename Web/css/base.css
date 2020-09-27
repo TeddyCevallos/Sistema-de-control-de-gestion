@@ -196,7 +196,7 @@ nav i:hover {}
 
 .footer {
     width: 400px;
-    height: auto;
+    height: right;
     display: block;
     margin: 50px auto;
     border: 1px solid rgb(207,168,181);
@@ -204,7 +204,7 @@ nav i:hover {}
 }
 
 .footer h4 {
-    text-align: justify;
+    text-align:right;
     font-size: 25px;
     margin: auto 15px;
     padding: 10px;
