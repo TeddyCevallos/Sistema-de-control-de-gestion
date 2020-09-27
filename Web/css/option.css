@@ -1,7 +1,7 @@
-.back .añadir, .back .consulta,.back .editar,.back .ver_editar {
+.back .añadir, .back .consulta, .back .editar, .back .ver_editar {
     clear: both;
     width: 60%;
-    height: auto;
+    height: 100%;
     margin: 50px 20%;
     background: #f0f0f0;
     box-shadow: 1px 1px 5px 5px rgb(217, 163, 195);
@@ -17,11 +17,22 @@
         transform: scale(1)
     }
 }
+
+.consulta .div-cont {
+    width: auto;
+    height: auto;
+    display: flex;
+    margin: auto 0;
+    border: 1px solid rgb(9, 45, 11);
+    padding: 20px;
+}
+
+,
 .añadir div, .consulta div, .editar div {
-    width: 25%;
+    width: 250px;
     height: 150px;
     margin: 15px 3%;
-    border: 1px solid rgb(9,48,11);
+    border: 10px solid rgb(9, 48, 11);
     text-align: center;
 }
 
@@ -43,7 +54,8 @@
     padding: 10px;
     margin: 15px;
 }
-.consulta div a img, .editar div a img {
+
+.consulta .div-cont div a img, .editar div a img {
     width: 100%;
     height: 100%;
     margin: auto;
@@ -63,19 +75,21 @@
     margin: auto;
     display: block;
 }
-.ver_editar div label{
+
+.ver_editar div label {
     width: auto;
     height: auto;
     margin: 5px;
 }
 
-.ver_editar div input{
+.ver_editar div input {
     width: 80%;
     height: 50px;
     border-radius: 15px;
-    border: 1px solid rgb(50,177,117);
+    border: 1px solid rgb(50, 177, 117);
 }
-#save{
+
+#save {
     width: 150px;
     height: 50px;
     border: none;

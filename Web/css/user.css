@@ -1,63 +1,88 @@
 .submenu li {
     width: 200px;
-    border: 1px solid rgb(207, 227, 208);
-    padding: 0;
-}
-
-.submenu li a {
-    font-size: 18px;
-    text-shadow: 1px 3px 3px rgb(189, 42, 91);
-    color: rgb(0, 0, 0);
-}
-
-.submenu li i {
-    font-size: 25px;
-    margin: 10px 5px;
-}
-
-
-.contenido{
+    margin: 8px 10px 0;
+    padding: 10px;
     display: flex;
 }
 
-.publicidad_i, .publicidad_d{
+.submenu li a {
+    font-size: 20px;
+    margin: auto 5px;
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 3px 3px rgb(189, 42, 91);
+}
+
+.submenu li .fa-cannabis {
+    font-size: 25px;
+    margin: 10px 5px;
+    color: rgb(1, 145, 87);
+}
+
+.contenido {
+    display: flex;
+}
+
+.publicidad_i, .publicidad_d {
     width: 20%;
     height: auto;
     margin: auto;
 }
-.publicidad_d img, .publicidad_i img{
+
+.publicidad_d img, .publicidad_i img {
     width: 100%;
     height: 10%;
     margin: 5px auto;
 }
-.publicacion{
-    border: 1px solid rgb(133,106,184);
+
+.publicacion {
     width: 45%;
     height: auto;
     margin: 10px auto;
+    border: 1px solid rgb(133, 106, 184);
 }
 
-.publicacion .publicado{
+.publicacion .publicado {
     width: 100%;
     height: auto;
     text-align: center;
 }
-.publicado img{
+
+.publicado img {
     width: 250px;
     height: 350px;
     margin: auto;
 }
 
-.welcome{
-    align-items: center;
+.welcome {
     width: 100%;
     height: auto;
-    margin: auto;
+    margin: 0 auto 10px;
     text-align: center;
+    align-items: center;
 }
-.agregar{
-    width: 150px;
-    height: auto;
+
+.welcome h3{
+    font-size: 30px;
+    margin: auto;
+    padding: 15px;
+}
+.welcome h4{
+    font-size: 20px;
+    margin:auto;
+    padding: 10px;
+}
+
+.agregar {
+    width: 100px;
+    height: 40px;
     margin: auto 35%;
     border-radius: 15px;
+    background-color: rgb(1,145,87);
+    border: none;
+    color: #fff;
+}
+
+.agregar:hover{
+    transform: scale(105%);
+    opacity: 0.7;
 }
