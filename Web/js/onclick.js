@@ -59,7 +59,7 @@ window.addEventListener('load', function() {
     añadir.style.display = 'none';
     consulta.style.display = 'none';
     editar.style.display = 'none';
-    ver_editar.style.display = 'block';
+    ver_editar.style.display = 'none';
 
 
     menu.addEventListener('click', function() {
@@ -67,26 +67,31 @@ window.addEventListener('load', function() {
         añadir.style.display = 'none';
         consulta.style.display = 'none';
         editar.style.display = 'none';
+        ver_editar.style.display = 'none';
 
     });
-    opt_agregar.addEventListener('click', function(){
+    opt_agregar.addEventListener('click', function() {
         submenu.style.display = 'none';
         añadir.style.display = 'block';
 
     });
-    opt_consultar.addEventListener('click', function(){
+    opt_consultar.addEventListener('click', function() {
 
         submenu.style.display = 'none';
         consulta.style.display = 'block';
     });
-    opt_edit.addEventListener('click', function(){
+    opt_edit.addEventListener('click', function() {
         editar.style.display = 'block';
         submenu.style.display = 'none';
+        ver_editar.style.display = 'none';
 
-        edit_file.addEventListener('click', function (){
-            editar.style.display = 'none';
-            ver_editar.style.display = 'block';
+        var ver_editar = document.querySelector('#ver_editar');
+        var edit_file = document.querySelector('#edit_file');
 
-        });
+    });
+    edit_file.addEventListener('click', function() {
+        editar.style.display = 'none';
+        ver_editar.style.display = 'block';
+
     });
 });

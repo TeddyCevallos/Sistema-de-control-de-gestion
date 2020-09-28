@@ -36,9 +36,10 @@
 }
 
 .añadir .div-cont div {
+    width: 29%;
+    margin: 10px 2%;
     height: auto;
     text-align: center;
-    padding-left: 20%;
 }
 
 .añadir div a .fa-github, .fa-save, .fa-cloud-upload-alt, .fa-laptop-house, .fa-dot-circle, .fa-usb {
