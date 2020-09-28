@@ -44,6 +44,13 @@
     position: static;
 
 }
+.info .img{
+    width: 250px;
+    height: 170px;
+    margin: 10px 30%;
+    position: static;
+
+}
 .info h3, .info1 h3{
     font-size: 20px;
     padding: 5px;
