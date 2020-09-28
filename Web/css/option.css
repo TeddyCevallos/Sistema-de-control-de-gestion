@@ -18,11 +18,13 @@
     }
 }
 .añadir div, .consulta div, .editar div {
-    width: 25%;
-    height: 150px;
-    margin: 15px 3%;
-    border: 1px solid rgb(9,48,11);
+    width: 60%;
+    height: 60%;
+    position: relative;
+    margin: 15px;
+    border: 1px auto rgb(9,48,11);
     text-align: center;
+    padding-left: 20%;
 }
 
 .añadir div a i {
