@@ -84,11 +84,6 @@
 .back .submenu{
 
 }
-.submenu li {
-    width: 200px;
-    border: 1px solid rgb(207, 227, 208);
-    padding: 0;
-}
 
 .submenu li a {
     font-size: 18px;

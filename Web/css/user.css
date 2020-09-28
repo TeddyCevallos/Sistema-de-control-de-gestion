@@ -1,6 +1,6 @@
 .submenu li {
-    width: 200px;
-    margin: 8px 10px 0;
+    width: 240px;
+    margin: 8px 5px 0;
     padding: 10px;
     display: flex;
 }
@@ -38,27 +38,38 @@
     width: 45%;
     height: auto;
     margin: 10px auto;
-    border: 1px solid rgb(133, 106, 184);
 }
 
 .publicacion .publicado {
-    width: 100%;
+    width: 98%;
     height: auto;
+    margin: auto;
+    margin-top: 10px;
     text-align: center;
+    background: rgb(71,70,70);
+    border-radius: 10px;
 }
 
 .publicado img {
     width: 250px;
-    height: 350px;
-    margin: auto;
+    height: 300px;
+    margin: 10px auto;
 }
 
+.publicado p{
+    clear: both;
+    text-align: justify;
+    padding: 10px;
+    margin: auto 15px;;
+}
 .welcome {
-    width: 100%;
+    width: 90%;
     height: auto;
-    margin: 0 auto 10px;
+    margin: 10px auto ;
     text-align: center;
     align-items: center;
+    border-radius: 10px;
+    background: rgb(71,70,70);
 }
 
 .welcome h3{
@@ -68,14 +79,14 @@
 }
 .welcome h4{
     font-size: 20px;
-    margin:auto;
+    margin:auto ;
     padding: 10px;
 }
 
 .agregar {
     width: 100px;
     height: 40px;
-    margin: auto 35%;
+    margin: auto 35% 10px;
     border-radius: 15px;
     background-color: rgb(1,145,87);
     border: none;

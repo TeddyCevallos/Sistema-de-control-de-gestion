@@ -59,7 +59,7 @@ window.addEventListener('load', function() {
     añadir.style.display = 'none';
     consulta.style.display = 'none';
     editar.style.display = 'none';
-    ver_editar.style.display = 'none';
+    ver_editar.style.display = 'block';
 
 
     menu.addEventListener('click', function() {
@@ -83,5 +83,10 @@ window.addEventListener('load', function() {
         editar.style.display = 'block';
         submenu.style.display = 'none';
 
+        edit_file.addEventListener('click', function (){
+            editar.style.display = 'none';
+            ver_editar.style.display = 'block';
+
+        });
     });
 });
