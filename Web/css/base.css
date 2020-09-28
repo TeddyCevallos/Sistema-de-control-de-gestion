@@ -122,7 +122,7 @@ nav i:hover {}
 .back .submenu {
     clear: both;
     width: 300px;
-    height: 300px;
+    height: auto;
     float: right;
     margin: 55px 10px;
     align-items: center;
